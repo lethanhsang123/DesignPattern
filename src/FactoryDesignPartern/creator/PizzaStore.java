@@ -1,6 +1,6 @@
-package FactoryDesignPartern.object;
+package FactoryDesignPartern.creator;
 
-import FactoryDesignPartern.factory.Pizza;
+import FactoryDesignPartern.product.Pizza;
 
 public abstract class PizzaStore {
 

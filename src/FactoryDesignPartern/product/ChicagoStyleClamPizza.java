@@ -1,4 +1,4 @@
-package FactoryDesignPartern.factory;
+package FactoryDesignPartern.product;
 
 public class ChicagoStyleClamPizza extends Pizza{
     @Override
