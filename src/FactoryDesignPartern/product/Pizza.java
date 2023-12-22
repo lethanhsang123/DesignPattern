@@ -2,6 +2,7 @@ package FactoryDesignPartern.product;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public abstract class Pizza {
     private String name;
@@ -14,9 +15,7 @@ public abstract class Pizza {
         System.out.println("Tossing dough...");
         System.out.println("Adding sauce...");
         System.out.println("Adding toppings: ");
-        for (String topping : toppings) {
-            System.out.println("   " + topping);
-        }
+        toppings.forEach(topping -> System.out.println(" " + topping));
     }
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
